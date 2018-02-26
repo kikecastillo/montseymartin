@@ -181,7 +181,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = '' ) {
 	do_action( 'login_header' );
 	?>
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>" title="<?php echo esc_attr( $login_header_title ); ?>" tabindex="-1"><?php echo $login_header_text; ?></a></h1>
+		<h1>Sube aquí tus fotos o videos con el usuario que te dimos, si no te acuerdas, ¡escríbenos!</h1>
 	<?php
 
 	unset( $login_header_url, $login_header_title );
@@ -826,7 +826,6 @@ case 'register' :
 <p id="nav">
 <a href="<?php echo esc_url( wp_login_url() ); ?>"><?php _e( 'Log in' ); ?></a>
 <?php echo esc_html( $login_link_separator ); ?>
-<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php _e( 'Lost your password?' ); ?></a>
 </p>
 
 <?php
@@ -1027,7 +1026,6 @@ default:
 		echo esc_html( $login_link_separator );
 	endif;
 	?>
-	<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php _e( 'Lost your password?' ); ?></a>
 <?php endif; ?>
 </p>
 <?php } ?>
