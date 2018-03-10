@@ -2723,7 +2723,7 @@ Video background css
 
 .widget_our_team_block .main-title:before,
 .widget_our_team_block .main-title:after {
-    border-color: #ffffff;
+    border-top: 2px solid #ffffff !important;
 }
 
 .team-img-wrapper .team-name,
