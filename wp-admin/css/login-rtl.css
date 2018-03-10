@@ -133,6 +133,7 @@ p {
 
 .login h1 {
 	text-align: center;
+	line-height: 30px;
 }
 
 .login h1 a {
