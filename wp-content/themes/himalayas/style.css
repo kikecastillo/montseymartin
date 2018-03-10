@@ -25,6 +25,11 @@ and Blueprint http://www.blueprintcss.org/
     src: url("fonts/playlist_script.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "RatBlack";
+    src: url("fonts/Rat Black.ttf") format("opentype");
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
 abbr, acronym, address, big, cite, code, del, dfn, em, font,
@@ -1728,7 +1733,7 @@ Slider css
     text-align: center;
     position: relative;
     margin: 0 auto;
-    font-family: "Playlist Script";
+    font-family: "RatBlack";
 }
 
 .caption-title a {
@@ -4357,5 +4362,3 @@ iframe#wp-custom-header-video {
 .search .page-header {
     display: none;
 }
-
-
