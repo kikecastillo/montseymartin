@@ -2108,6 +2108,7 @@ Video background css
     position: relative;
     font-family: 'RatBlack', 'Crimson Text', serif;
     font-weight: 700;
+    color: #004d75;
 }
 
 .main-title:before,
@@ -2119,7 +2120,7 @@ Video background css
     height: 2px;
     width: 108px;
     content: "";
-    border-top: 2px solid #32C4D1;
+    border-top: 2px solid #004d75 !important;
 }
 
 .main-title:after {
@@ -2717,6 +2718,11 @@ Video background css
 
 .widget_our_team_block .main-title,
 .widget_our_team_block .sub-title {
+    color: #ffffff;
+}
+
+.widget_our_team_block .main-title:before,
+.widget_our_team_block .main-title:after {
     color: #ffffff;
 }
 
